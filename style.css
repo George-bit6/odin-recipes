@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.big-img {
+    background-image: url("buffetable.jpeg");
+    filter: blur(8px);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mid-txt{
+    background-color: rgb(88, 41, 2);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: 700;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    text-align: center;
+}
+
+.ulist, a {
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+}
